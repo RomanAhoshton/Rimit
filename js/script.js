@@ -13,3 +13,37 @@ Close.addEventListener("click",()=>{
 
 });
 
+const input=document.getElementById("input");
+input.addEventListener("click",()=>{
+input.removeAttribute("placeholder")
+
+});
+const input1=document.getElementById("input1");
+input1.addEventListener("click",()=>{
+input1.removeAttribute("placeholder")
+
+});
+const input2=document.getElementById("input2");
+input2.addEventListener("click",()=>{
+input2.removeAttribute("placeholder")
+
+});
+const area=document.querySelector(".area");
+area.addEventListener("click",()=>{
+    area.removeAttribute("placeholder");
+})
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
