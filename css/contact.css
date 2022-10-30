@@ -114,18 +114,17 @@
 }
 
 .contact_form input {
-  border: none;
-  border-bottom: 2px solid grey;
+  border: 2px solid grey;
   width: 375px;
   outline: none;
   margin-bottom: 30px;
   height: 35px;
-  outline: none;
   padding: 10px;
   color: #4d4a4a;
   display: block;
   -webkit-box-shadow: none;
           box-shadow: none;
+  border-radius: 15px;
 }
 @media (max-width: 480px) {
   .contact_form input {
